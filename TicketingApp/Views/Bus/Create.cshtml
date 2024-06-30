@@ -1,5 +1,97 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model TicketingApp.ViewModels.ShareViewModel.ShareVM
+
 @{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .control-label {
+        float: left !important;
+    }
+
+    .row {
+        margin: 5px;
+    }
+
+</style>
+
+<div class="container mt-5">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Add Bus</h2>
+    </div>
+
+    <div class="card">
+
+
+        <form asp-action="AddBus" method="post" class="m-3">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-6">
+                        <label class="control-label">Name</label>
+                        <input type="text" asp-for="CreateBusVM.Name" class="form-control" required />
+                        <span asp-validation-for="CreateBusVM.Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-6">
+                        <label class="control-label">Number</label>
+                        <input type="text" asp-for="CreateBusVM.Number" class="form-control" required />
+                        <span asp-validation-for="CreateBusVM.Number" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-6">
+                        <label class="control-label">Model</label>
+                        <input type="text" asp-for="CreateBusVM.Model" class="form-control" required />
+                        <span asp-validation-for="CreateBusVM.Model" class="text-danger"></span>
+                    </div>
+                    <div class="col-6">
+                        <label class="control-label">Capacity</label>
+                        <input type="number" asp-for="CreateBusVM.Capacity" class="form-control" required />
+                        <span asp-validation-for="CreateBusVM.Capacity" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-6">
+                        <label class="control-label">Image</label>
+                        <input type="text" asp-for="CreateBusVM.Image" class="form-control" required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mt-3">
+                <a href="@Url.Action("Index", "Bus")" class="btn btn-primary">Back</a>
+                <button type="submit" class="btn btn-success">Create</button>
+            </div>
+        </form>
+
+
+    </div>
+
+
+    
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <text>
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success',
+                    text: '@TempData["SuccessMessage"]'
+                });
+                </text>
+            }
+        });
+    </script>
+
+    
+
 }

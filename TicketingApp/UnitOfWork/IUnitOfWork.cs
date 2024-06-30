@@ -10,5 +10,6 @@ namespace TicketingApp.UnitOfWork
     {
         Task<int> CompleteAsync();
         IBusRepository Buses { get; }
+        IDriverRepository Drivers { get; }
     }
 }

@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TicketingApp.Notifications;
 using TicketingApp.UnitOfWork;
 using TicketingApp.ViewModels.BusViewModels;
 
@@ -11,9 +13,11 @@ namespace TicketingApp.Controllers
     public class BusController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public BusController(IUnitOfWork unitOfWork)
+        private readonly IHubContext<NotificationHub> _hubContext;
+        public BusController(IUnitOfWork unitOfWork, IHubContext<NotificationHub> hubContext)
         {
             _unitOfWork = unitOfWork;
+            _hubContext = hubContext;
         }
         public async Task<IActionResult> Index()
         {
@@ -45,7 +49,9 @@ namespace TicketingApp.Controllers
                 {
                     await _unitOfWork.Buses.AddBusDetails(createBusVM);
                     await _unitOfWork.CompleteAsync();
-                    return RedirectToAction(nameof(Index));
+                    //await _hubContext.Clients.All.SendAsync("ReceiveNotification", $"Bus added with number {createBusVM.Number}");
+                    TempData["SuccessMessage"] = "Data submitted successfully.";
+                    return RedirectToAction(nameof(Create));
                 }
                 return View(createBusVM);
             }
@@ -86,7 +92,8 @@ namespace TicketingApp.Controllers
                 {
                     await _unitOfWork.Buses.EditBusDetails(updateBusVM);
                     await _unitOfWork.CompleteAsync();
-                    return RedirectToAction(nameof(Index));
+                    TempData["SuccessMessage"] = "Data submitted successfully.";
+                    return RedirectToAction(nameof(Edit), new { id = updateBusVM.BusId });
                 }
                 return View(updateBusVM);
             }

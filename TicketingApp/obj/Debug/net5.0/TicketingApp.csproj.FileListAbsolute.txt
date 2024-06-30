@@ -20,7 +20,6 @@ C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Micr
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Server.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Web.dll
-C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -42,7 +41,6 @@ C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Micr
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
-C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
@@ -77,10 +75,8 @@ C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Micr
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Session.dll
-C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.dll
-C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.StaticFiles.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebSockets.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebUtilities.dll
@@ -99,7 +95,6 @@ C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Micr
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -126,7 +121,6 @@ C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Micr
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -185,7 +179,6 @@ C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\Syst
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
-C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\System.IO.Pipelines.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\System.IO.Pipes.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\refs\System.Linq.dll
@@ -403,3 +396,15 @@ C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\Ticketing
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\ref\TicketingApp.dll
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\TicketingApp.pdb
 C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\TicketingApp.genruntimeconfig.cache
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\Razor\Views\Bus\Create.cshtml.g.cs
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\Razor\Views\Bus\Details.cshtml.g.cs
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\Razor\Views\Bus\Edit.cshtml.g.cs
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\obj\Debug\net5.0\Razor\Views\Bus\Index.cshtml.g.cs
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\danny\source\repos\TicketingApp\TicketingApp\bin\Debug\net5.0\System.IO.Pipelines.dll

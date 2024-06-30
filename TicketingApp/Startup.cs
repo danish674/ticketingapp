@@ -10,6 +10,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TicketingApp.Data;
+using TicketingApp.Notifications;
+using TicketingApp.Repositories.IRepository;
+using TicketingApp.Repositories.Repository;
+using TicketingApp.UnitOfWork;
 
 namespace TicketingApp
 {
@@ -28,6 +32,9 @@ namespace TicketingApp
             services.AddControllersWithViews();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Con")));
+            services.AddScoped<IBusRepository, BusRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork>();
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +62,7 @@ namespace TicketingApp
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapHub<NotificationHub>("/notificationHub");
             });
         }
     }

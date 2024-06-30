@@ -17,26 +17,26 @@ namespace TicketingApp.Repositories.Repository
         {
             _context = context;
         }
-        public async Task AddBusDetails(CreateBusVM createBus)
-        {
-            try
+            public async Task AddBusDetails(CreateBusVM createBus)
             {
-                var bus = new Bus
+                try
                 {
-                    Name = createBus.Name,
-                    Number = createBus.Number,
-                    Model = createBus.Model,
-                    Capacity = createBus.Capacity,
-                    Image = createBus.Image,
-                    CreatedBy = createBus.CreatedBy
-                };
-               await _context.Buses.AddAsync(bus);
+                    var bus = new Bus
+                    {
+                        Name = createBus.Name,
+                        Number = createBus.Number,
+                        Model = createBus.Model,
+                        Capacity = createBus.Capacity,
+                        Image = createBus.Image,
+                        CreatedBy = createBus.CreatedBy
+                    };
+                   await _context.Buses.AddAsync(bus);
+                }
+                catch(Exception)
+                {
+                    throw;
+                }
             }
-            catch(Exception)
-            {
-                throw;
-            }
-        }
 
         public async Task EditBusDetails(UpdateBusVM updateBus)
         {

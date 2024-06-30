@@ -10,11 +10,15 @@ namespace TicketingApp.UnitOfWork
     public class UnitOfWork : IUnitOfWork
     {
         private readonly DataContext _context;
-        public UnitOfWork(DataContext context)
+        public UnitOfWork(DataContext context, IBusRepository busRepository, IDriverRepository driverRepository)
         {
             _context = context;
+            Buses = busRepository;
+            Drivers = driverRepository;
         }
         public IBusRepository Buses { get; set; }
+
+        public IDriverRepository Drivers { get; set; }
 
         public async Task<int> CompleteAsync()
         {
